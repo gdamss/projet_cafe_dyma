@@ -42,11 +42,25 @@ a {
   border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
+  background-repeat: 0px;
+  cursor: pointer;
 }
 
 .btn-primary {
   background: white;
   color: #222;
+}
+
+.btn-dark{
+  background: #222;
+  color: white;
+
+}
+
+.btn-dark:hover{
+  background: white;
+  color: #222;
+  border: 1px solid #222;
 }
 
 .btn-primary:hover {
@@ -64,6 +78,12 @@ a {
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.my-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 /* header */
@@ -144,4 +164,31 @@ a {
 .feature{
     float: left;
     width:  50%;
+}
+
+/* person */
+
+.person{
+  height: 400px;
+  background: url(../images/person-1.jpg) center center /cover;
+}
+
+/* reservation */
+
+.reservation{
+  padding:100px 0px 100px 0px ;
+  text-align: center;
+}
+
+/* footer */
+
+footer{
+  background: #222;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+footer p{
+  margin-bottom: 0px;
 }
