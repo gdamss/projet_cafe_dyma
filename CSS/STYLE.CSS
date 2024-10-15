@@ -11,7 +11,7 @@
 html,
 body {
   font-family: "Open Sans", sans-serif;
-  color:#222 ;
+  color: #222;
 }
 
 h1,
@@ -51,13 +51,12 @@ a {
   color: #222;
 }
 
-.btn-dark{
+.btn-dark {
   background: #222;
   color: white;
-
 }
 
-.btn-dark:hover{
+.btn-dark:hover {
   background: white;
   color: #222;
   border: 1px solid #222;
@@ -68,11 +67,10 @@ a {
   color: white;
 }
 
-.container{
-    max-width: 1000px;
-    display:block ;
-    margin: auto;
-
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
 }
 
 .my-10 {
@@ -80,12 +78,32 @@ a {
   margin-bottom: 10px;
 }
 
-.my-20{
+.my-20 {
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
 
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chip {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+}
+
+.chip-purple {
+  background: #be418c;
+}
+
+.chip-brown {
+  background: #8c5e24;
+}
 /* header */
 
 .header {
@@ -155,40 +173,60 @@ a {
 
 /* features */
 
-.features{
-    overflow: auto;
-    padding: 100px 0px 100px 0px;
-    text-align: center;
+.features {
+  overflow: auto;
+  padding: 100px 0px 100px 0px;
+  text-align: center;
 }
 
-.feature{
-    float: left;
-    width:  50%;
+.feature {
+  float: left;
+  width: 50%;
 }
 
 /* person */
 
-.person{
+.person {
   height: 400px;
-  background: url(../images/person-1.jpg) center center /cover;
+  background: url(../images/person-1.jpg) center center / cover;
 }
 
 /* reservation */
 
-.reservation{
-  padding:100px 0px 100px 0px ;
+.reservation {
+  padding: 100px 0px 100px 0px;
   text-align: center;
 }
 
 /* footer */
 
-footer{
+footer {
   background: #222;
   color: white;
   padding: 30px 0px 30px 0px;
   text-align: center;
 }
 
-footer p{
+footer p {
   margin-bottom: 0px;
+}
+
+/* where */
+
+.where {
+  padding: 180px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.where-text {
+  float: right;
+  width: 50%;
 }
