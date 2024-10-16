@@ -248,7 +248,8 @@ footer p {
   font-weight: 700;
 }
 
-.contact-form-container form input , textarea {
+.contact-form-container form input,
+textarea {
   display: block;
   width: 100%;
   padding: 15px;
@@ -256,7 +257,6 @@ footer p {
   border-radius: 3px;
 }
 
-.contact-form-container form  textarea{
+.contact-form-container form textarea {
   min-height: 80px;
-
 }
